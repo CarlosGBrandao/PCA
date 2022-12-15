@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main()
+{
+    
+    float base, altura;
+    float multi, divi;
+    printf("Digite a base e a altura do triangulo, separados por um espaço em branco.\n");
+    scanf("%f%f", &base, &altura);
+    printf("Base: %f\n", base);
+    printf("Altura: %f\n", altura);
+    
+    multi = base * altura;
+    divi = multi / 2;
+    
+    printf("Area: %f\n", divi);
+    
+}
