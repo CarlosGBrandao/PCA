@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void main()
+{
+    
+    float salario, auxiliar, ajuste;
+    
+    printf("Insira o seu salário:\n");
+    scanf("%f", &salario);
+    
+    auxiliar = (salario * 10 ) / 100;
+    ajuste = salario + auxiliar;
+    
+    printf("Reajuste: %f\n", ajuste);
+    
+}
