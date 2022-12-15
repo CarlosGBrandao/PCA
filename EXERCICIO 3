@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void main()
+{
+    
+    float conta, auxiliar;
+    
+    printf("Insira o valor da conta:\n");
+    scanf("%f", &conta);
+    
+    auxiliar = conta / 11;
+    
+    
+    printf("Parte do garçom: %f\n", auxiliar);
+    
+}
