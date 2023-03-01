@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
         printf("\n");
     letraD(alunos, notas, sexo);
         printf("\n");
-    letraF(alunos, notas, sexo);
+    letraF(alunos, notas);
         printf("\n");
     letraG(alunos, notas, sexo);
 
